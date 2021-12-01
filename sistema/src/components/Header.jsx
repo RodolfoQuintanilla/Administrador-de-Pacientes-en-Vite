@@ -1,0 +1,15 @@
+
+const Header = () => {
+
+    //const [state, setstate] = useState(initialState);
+
+    return (
+        <>
+            <h1 className="font-black text-5xl text-center w-2/3 md:mx-auto">Seguimiento Pacientes {''}
+                <span className="text-indigo-600">Veterinaria</span></h1>
+        </>
+    );
+
+};
+
+export default Header;
